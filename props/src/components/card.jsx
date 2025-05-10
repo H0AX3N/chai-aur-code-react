@@ -47,7 +47,7 @@ function Card({ price, nftName, slNo }) {
                 />
             </div>
             <div className="flex flex-col py-3 px-3 pb-7 -mt-4 bg-black/50 rounded-b-xl">
-                <div className="flex justify-between">
+                <div className="flex justify-between pt-4">
                     <h1 className="font-bold text-white">{nftName}</h1>
                     <h1 className="font-bold text-white">Price</h1>
                 </div>
