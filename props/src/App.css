@@ -1,0 +1,48 @@
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+@keyframes blob1 {
+  0%,
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(20px, -30px) scale(1.1);
+  }
+}
+
+@keyframes blob2 {
+  0%,
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(-30px, 20px) scale(1.05);
+  }
+}
+
+@keyframes blob3 {
+  0%,
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  50% {
+    transform: translate(40px, -20px) scale(1.2);
+  }
+}
+
+.animate-blob1 {
+  animation: blob1 15s infinite ease-in-out;
+}
+
+.animate-blob2 {
+  animation: blob2 18s infinite ease-in-out;
+}
+
+.animate-blob3 {
+  animation: blob3 20s infinite ease-in-out;
+}
